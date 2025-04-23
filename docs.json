@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "HTTP API",
+            "dropdown": "HTTP API",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -39,6 +39,7 @@
         "groups": [
           {
             "group": "API Documentation",
+            "icon": "book-open",
             "pages": [
               "api-reference/introduction"
             ]
