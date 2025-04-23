@@ -1,0 +1,29 @@
+---
+title: "Introduction"
+---
+### Using Signatures for Message Authentication
+
+This document covers how to use signatures, both for signing the messages you send and verifying that incoming webhooks have a correct signature. You can use signatures with the Submit SMS, Message API, Confirm API, Short URL API, etc., when sending requests and receiving webhooks.
+
+### Purpose of Signatures
+
+You use a signature to:
+
+- **Verify** that a request originates from a trusted source.
+- **Ensure** that the message has not been tampered with en-route.
+- **Defend** against interception and later replay.
+
+### Generating Signatures
+
+When sending, you generate a signature to send with your message.
+
+### Validating Signatures
+
+When receiving, the incoming webhook will include the signature and all the fields you need to generate the signature in your application to verify that the two signatures match.
+
+### Encoding
+
+All requests should be encoded using the **UTF-8 Charset**.
+
+**Note: All timestamps in this document are in UTC+00:00**.
+```
