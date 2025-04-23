@@ -23,6 +23,7 @@
           },
           {
             "dropdown": "HTTP API",
+            "icon": "book-open",
             "pages": [
               "essentials/markdown",
               "essentials/code",
