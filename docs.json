@@ -22,7 +22,7 @@
             ]
           },
           {
-            "dropdown": "HTTP API",
+            "group": "HTTP API",
             "icon": "book-open",
             "pages": [
               "essentials/markdown",
