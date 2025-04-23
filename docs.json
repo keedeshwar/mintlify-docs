@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "HTTP API",
             "pages": [
               "essentials/markdown",
               "essentials/code",
